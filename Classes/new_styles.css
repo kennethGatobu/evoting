@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#some_color{color:#FFFBF0;}
+#navbar_style
+{
+margin-bottom: 0; 
+background:#149F51; 
+color:#FFF; 
+border-top:solid 15pt  #9C5E40 ; 
+border-bottom:solid 6pt #FFFFCD;
+}
+
+#login_panel
+{
+
+margin-bottom: 0; 
+background:#28135E; 
+color:#FFF; 
+border-top:solid 20pt#DFD156 ; 
+/*border-bottom:solid 6pt  #9C5E40 ; */
+}
+#custom_link{ font-weight:bold;}
+#dataTables-example{font-size:12px;}
+
+#wrapper{background-color: #FFFFCD !important;}							
+.sidebar{background-color: #FFFFCD !important;}

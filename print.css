@@ -1,0 +1,29 @@
+@charset "utf-8";
+@media print {
+body {background:white; text-align:center; color:black; margin:0;  }
+#lv{display:none;}
+.dm{
+	font: 11px Tahoma, Arial, sans-serif;
+	text-align:left;
+	border: ridge  3px #CCCCCC;
+	border-collapse:collapse;
+	padding:4px;
+	border-color:#CCC;
+	width:70%;
+	color: #454545;
+	}
+.dm td{
+	font: 11px Tahoma, Arial, sans-serif;
+	text-align:left;
+	border: ridge  3px #CCCCCC;
+	border-collapse:collapse;
+	padding:4px;
+	color: #454545;
+	}
+.dm th{
+	padding:8px;
+	font-size:16px;
+	color: #454545;
+	
+	}
+}

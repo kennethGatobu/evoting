@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{
+	/*font-family:Tahoma, Geneva, sans-serif; font-size:12px; */
+	font: 11px Tahoma, Arial, sans-serif;
+	 color: #454545;
+	height:90%;
+	margin:0px;
+	background:#fff url(images/bg_color.gif) repeat-x;
+	
+	}
+#table_content{
+	height:100%;
+	width:100%;
+	border:none;
+	background:#FBFBFB;
+	/*border:thin #CCC;*/
+	}
+
+#candidate_list{
+	border:solid 1px;
+	 width:80%; 
+	 border-radius:5px;
+	 font-size:12px;
+	  
+	 
+	 margin:10px;
+	 box-shadow:5px 5px #999; 
+	 -khtml-box-shadow:5px 5px #999;
+	 }
+#candidate_image_border{
+	 border-style: solid;
+    border-color:#CCC;
+	}
+#candidate_list h2{color:#666;}
+#candidate_list tr:hover{ background:#CBCBE4;}
+#candidate_radio_button{
+	width:25px;
+	 height:25px;
+	 cursor:pointer;
+	background:#CCC;
+	
+	border-radius: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	 
+	 }
+
+input[type=radio]:checked { 
+   background-image: none;
+    background-color:#090;
+}
+#submit_button{
+	margin-bottom:20px;
+	width:250px;
+ height:50px;
+  background:#F00;
+  font-size:16px;
+  color:#FFF;
+  font-weight:bold;}
+  #submit_button:hover{
+	  cursor:pointer;
+	  }
+.login{
+			background: url(images/key.jpg) no-repeat;
+			padding-top:20px;
+			text-align:center;
+			width:500px;
+			height:250px;
+			border-radius:5px;
+			box-shadow:15px 15px 15px #999;
+			border:solid 1px #CCC;
+			/*margin-left:300px; */
+			margin-top:60px;
+			margin-bottom:40px;
+    } 
+#link_list{
+	list-style:none;
+	font-size:12px;
+	padding-left:5px;
+	margin-left:5px;
+	margin-top:30px;
+	 
+	}
+#link_list li{
+	margin-left:1px;
+	padding-bottom:10px;
+	}
+.login input{border-radius:5px; border:solid 1px #666;}
+.my{
+	border:none;
+	color:#33F;
+	background:#FFF;
+	
+	}
+a{
+	background-color:inherit;
+	text-decoration:none;
+	 color:blue;
+}
+#tr_name{
+	background:url(images/bg_color.gif) repeat-x;
+	height:20px;
+	/* border-bottom:solid 1px; */
+	 }
+#tr_footer{
+	background:url(images/title.jpg);
+	background-size:100% 100%;
+	text-align:center;
+	height:5px;
+	}
+
+#tr_header_text
+{
+	height:10px;
+	 background-color:rgb(206, 178, 21);
+}
+#tr_header{
+	height:150px;
+	background:url(images/kca.jpg) no-repeat;
+	background-size:150px 100%; 
+	}
+#tr_link{
+	height:40px;
+	 background:#2F637A;
+	}
+#tr_link a:hover 
+{
+color: #FF00FF;
+background:#FFF;
+padding:10px; 
+
+}
+#tr_link .current {
+	border:none;
+	background:#FFF;
+	color:#000;
+	text-decoration:none;
+	/*margin:5px 1px 75px 1px ; */
+	padding:10px; 
+	font-weight:bold;
+	font-size:13px;
+}
+#tr_link a{
+	border:none;
+	background:inherit;
+	color:#FFF;
+	text-decoration:none;
+	margin:5px 1px 75px 1px ;
+	padding:10px; 
+	font-weight:bold;
+	font-size:13px;
+}
+#link_button{
+	/*border:solid; */
+
+	text-decoration:underline;
+	
+	padding:2px; 
+	/*font-weight:bold; */
+	}
+
+#download_link{
+	border:none; 
+	font-weight:100; 
+	padding:0px; 
+	color:blue; background-color:inherit;
+	}
+
+   
+  
+#bold_row{
+	font-weight:bold;
+	font-size:12px;
+	
+	}
+/*
+table,td{
+	font: 11px Tahoma, Arial, sans-serif;
+	text-align:left;
+	border: ridge  3px #CCCCCC;
+	border-collapse:collapse;
+	padding:4px;
+} */
+.candidate{
+	 color: #454545;
+	text-align:left;
+	
+	margin-top:20px; margin-bottom:20px;
+
+	}
+	.candidate td{
+	font: 12px Tahoma, Arial, sans-serif;
+	text-align:left;
+	 color: #454545;
+	
+	padding:4px;
+	}
+   .candidate th{
+	font-size:16px;
+	 color: #454545;
+	padding:8px;
+	
+	}
+	
+.dm{
+	font: 11px Tahoma, Arial, sans-serif;
+	text-align:left;
+	
+	
+	border-color:#CCC;
+	color: #454545;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+	}
+.dm td{
+	font: 11px Tahoma, Arial, sans-serif;
+	text-align:left;
+	
+	padding:4px;
+	color: #454545;
+	}
+.dm th{
+	padding:8px;
+	font-size:16px;
+	color: #454545;
+	
+	}
+.dm tr:hover{
+	background:#DFFFFF;
+}
+.dm td:hover{
+	background:#CCC;
+}
+.dm a:hover{
+background:inherit;
+}
+
+#tr_sub_header{
+	color:#333;;
+	font-style:italic;
+	font-weight:bold;		
+}
+#search-result{
+	width:50%;
+	
+	height:30%}
